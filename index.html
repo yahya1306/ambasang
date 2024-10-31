@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pisang Coklat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pisang Coklat</h1>
+    <img src="img/pisang.jfif" alt="Pisang Keju" class="food-image">
+    <p>Pisang goreng dengan taburan keju dan coklat lumer, cocok untuk dinikmati saat santai!</p>
+
+    <div class="button-group">
+        <a href="pisang.html"><button id="homeButton">Varian Rasa</button></a>
+        <a href="harga.html"><button id="orderButton">Harga</button></a>
+        <a href="https://www.instagram.com/yya_sv7?igsh=MXJ2b21jNGRuam8xdw=="><button id="homeButton">Instagram</button</i></a>
+    </div>
+    <p id="orderMessage" class="hidden">Terima kasih telah memesan Pisang Keju!</p>
+  </div>
+</body>
+</html>
+
+<style>
+    /* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Gaya kontainer */
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff9e6;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Gaya judul dan paragraf */
+  h1 {
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Gambar makanan */
+  .food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Kelompok tombol */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Gaya tombol */
+  button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Pesan konfirmasi */
+  .hidden {
+    display: none;
+    margin-top: 15px;
+    color: #27ae60;
+    font-weight: bold;
+  }
+</style>
